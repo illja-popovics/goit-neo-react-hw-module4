@@ -1,0 +1,19 @@
+.card {
+    display: flex;
+    align-items: center;
+    /* Optional: centers content vertically */
+    justify-content: center;
+    /* Optional: centers content horizontally */
+    max-height: 200px;
+    overflow: hidden;
+    /* Ensures content doesn't overflow the container */
+}
+
+.card img {
+    width: 100%;
+    /* Image takes up the full width of its container */
+    height: auto;
+    /* Maintain the aspect ratio */
+    object-fit: cover;
+    /* Crops the image to fill the container */
+}
